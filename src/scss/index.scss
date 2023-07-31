@@ -1,0 +1,20 @@
+@import './variables';
+@import './../components/input/input';
+@import './../components/icons/icon';
+@import './../components/button/button';
+@import './../components/container/container';
+@import './../components/unorderedList/unordered-list';
+@import './../components/autoSearchCard/auto-search-card';
+@import './../features//autoSearch//auto-search';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,16 @@
+.container {
+    padding: map-get($spacers, 8);
+    max-width: map-get($breakpoints, xl);
+    @media only screen and (max-width: map-get($breakpoints, xl)) {
+        padding: map-get($spacers, 7);
+    }
+    @media only screen and (max-width: map-get($breakpoints, lg)) {
+        padding: map-get($spacers, 6);
+    }
+    @media only screen and (max-width: map-get($breakpoints, md)) {
+        padding: map-get($spacers, 5);
+    }
+    @media only screen and (max-width: map-get($breakpoints, sm)) {
+        padding: map-get($spacers, 3);
+    }
+}

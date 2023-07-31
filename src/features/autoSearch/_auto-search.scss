@@ -1,0 +1,31 @@
+.auto-search {
+    & h6 {
+        margin: map-get($spacers, 2) 0;
+        font-size: 16px;
+        line-height: 20px;
+        color: $black;
+    }
+    &-body {
+        display: flex;
+    }
+    &-content {
+        flex: 1;
+        margin-right: map-get($spacers, 3);
+        & .notification {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: map-get($spacers, 3);
+        }
+    }
+    & input {
+        width: 100%;
+    }
+    & button {
+        height: fit-content;
+        border: 2px solid transparent;
+        @media only screen and (max-width: map-get($breakpoints, md)) {
+            display: none;
+        }
+    }
+}

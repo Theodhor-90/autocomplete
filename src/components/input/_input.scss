@@ -1,0 +1,25 @@
+.input-container {
+    position: relative;
+    input {
+        padding: map-get($spacers, 3);
+        font-size: 16px;
+        line-height: 20px;
+        &:focus + .icon-container {
+            display: none;
+        }
+        border: 2px solid lightgray;
+        border-radius: 3px;
+        &:focus{
+            border-color: transparent;
+        }
+    }
+    & .icon-container {
+        position: absolute;
+        right: map-get($spacers, 3);
+        transform: translateY(-50%);
+        top: 50%;
+        & path {
+            stroke: gray;
+        }
+    }
+}

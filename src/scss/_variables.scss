@@ -1,0 +1,29 @@
+$spacer: 8px;
+
+$spacers: (
+    0: 0,
+    1: $spacer * 0.5,
+    2: $spacer,
+    3: $spacer * 2,
+    4: $spacer * 3,
+    5: $spacer * 4,
+    6: $spacer * 6,
+    7: $spacer * 8,
+    8: $spacer * 12,
+);
+
+$blue: rgb(9, 105, 218);
+$gray: gray;
+$light-gray: lightgray;
+$dark-gray: #F5F5F5;
+$orange: #F79327;
+$black: #393E46;
+
+$breakpoints: (
+    sm: 500px,
+    md: 750px,
+    lg: 1000px,
+    xl: 1250px
+);
+
+$box-shadow: 0 0.25rem 0.25rem rgba(black, 0.075);

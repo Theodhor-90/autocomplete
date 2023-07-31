@@ -1,0 +1,34 @@
+.auto-search {
+    &-card {
+        padding: map-get($spacers, 3) map-get($spacers, 5);
+        border-bottom: 1px solid $light-gray;
+        cursor: pointer;
+        &:hover {
+            background-color: $dark-gray;
+        }
+    }
+    &-title {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: bold;
+        padding: map-get($spacers, 2) 0;
+        & span {
+            color: $orange;
+        }
+    }
+    &-info {
+        display: flex;
+        & div {
+            color: $gray;
+            padding: 0 map-get($spacers, 3);
+            border-left: 1px solid $gray;
+            &:first-child {
+                padding-left: 0;
+                border-left: none;
+            }
+            & span {
+                color: $orange;
+            }
+        }
+    }
+}
